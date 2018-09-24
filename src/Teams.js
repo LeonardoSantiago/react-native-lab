@@ -1,11 +1,10 @@
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, ScrollView, Dimensions, SectionList} from 'react-native';
+import { Text, View, Dimensions, SectionList} from 'react-native';
 
 export default class Teams extends Component<Props> {
     render() {
       const width = Dimensions.get('window').width
-      const height = Dimensions.get('window').height
 
       return (
         <SectionList

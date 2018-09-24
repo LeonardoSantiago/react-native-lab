@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import {StyleSheet, Text, TouchableOpacity, View, ScrollView, Alert} from 'react-native';
+import {StyleSheet, Text, TouchableOpacity, View, ScrollView} from 'react-native';
 import Sound from 'react-native-sound-player';
 
 const styles = StyleSheet.create({
